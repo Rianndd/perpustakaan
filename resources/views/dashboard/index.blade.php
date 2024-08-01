@@ -36,18 +36,18 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h5><b>Todays Income</b></h5>
-                            <p class="text-muted">All Customs Value</p>
+                            <h5><b>Dipinjamkan</b></h5>
+                            <p class="text-muted">Buku yang dipinjam</p>
                         </div>
-                        <h3 class="text-info fw-bold">$170</h3>
+                        <h3 class="text-info fw-bold">10</h3>
                     </div>
                     <div class="progress progress-sm">
-                        <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                        <div class="progress-bar bg-info w-10" role="progressbar" aria-valuenow="10" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
                     <div class="d-flex justify-content-between mt-2">
                         <p class="text-muted mb-0">Change</p>
-                        <p class="text-muted mb-0">75%</p>
+                        <p class="text-muted mb-0">10%</p>
                     </div>
                 </div>
             </div>
@@ -57,10 +57,10 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h5><b>Total Revenue</b></h5>
-                            <p class="text-muted">All Customs Value</p>
+                            <h5><b>Stok Buku</b></h5>
+                            <p class="text-muted">Jumlah buku</p>
                         </div>
-                        <h3 class="text-success fw-bold">$120</h3>
+                        <h3 class="text-success fw-bold">120</h3>
                     </div>
                     <div class="progress progress-sm">
                         <div class="progress-bar bg-success w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0"
@@ -78,8 +78,8 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h5><b>New Orders</b></h5>
-                            <p class="text-muted">Fresh Order Amount</p>
+                            <h5><b>Member</b></h5>
+                            <p class="text-muted">Member Perpustakaan</p>
                         </div>
                         <h3 class="text-danger fw-bold">15</h3>
                     </div>
@@ -99,8 +99,8 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h5><b>New Users</b></h5>
-                            <p class="text-muted">Joined New User</p>
+                            <h5><b>User</b></h5>
+                            <p class="text-muted">User Sistem</p>
                         </div>
                         <h3 class="text-secondary fw-bold">12</h3>
                     </div>
