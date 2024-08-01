@@ -30,6 +30,18 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <li class="nav-section">
+                    <span class="sidebar-mini-icon">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </span>
+                    <h4 class="text-section">MASTER DATA</h4>
+                </li>
+                <li class="nav-item {{ Request::is('kategori*') ? 'active' : '' }}">
+                    <a class="collapsed" href="{{ route('kategori') }}" aria-expanded="false">
+                        <i class="fas fa-grip-vertical"></i>
+                        <p>Kategori</p>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

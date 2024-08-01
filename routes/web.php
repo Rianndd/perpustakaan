@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KategoriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('dashboard.index');
+});
+
+Route::controller(KategoriController::class)->group(function () {
+    Route::get('kategori', 'index')->name('kategori');
+    Route::get('tambah', 'create')->name('kategori.create');
 });
