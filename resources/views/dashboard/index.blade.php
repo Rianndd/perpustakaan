@@ -8,16 +8,28 @@
 @endsection
 
 @section('content')
-    {{-- <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
         <div>
             <h3 class="fw-bold mb-3">Dashboard</h3>
-            <h6 class="op-7 mb-2">Free Bootstrap 5 Admin Dashboard</h6>
         </div>
         <div class="ms-md-auto py-2 py-md-0">
-            <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
-            <a href="#" class="btn btn-primary btn-round">Add Customer</a>
+            {{-- <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
+            <a href="#" class="btn btn-primary btn-round">Add Customer</a> --}}
+            <ul class="breadcrumbs mb-3">
+                <li class="nav-home">
+                    <a href="/">
+                        <i class="icon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="icon-arrow-right"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="/">Dashboard</a>
+                </li>
+            </ul>
         </div>
-    </div> --}}
+    </div>
     <div class="row row-card-no-pd mt--2">
         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
             <div class="card">
