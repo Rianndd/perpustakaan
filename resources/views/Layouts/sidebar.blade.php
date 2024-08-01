@@ -23,7 +23,7 @@
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
             <ul class="nav nav-secondary">
-                <li class="nav-item">
+                <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
                     <a class="collapsed" href="/" aria-expanded="false">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
