@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::create('peminjaman', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id');
-            $table->integer('book_id');
+            $table->integer('buku_id');
+            $table->integer('kategori_id');
             $table->date('tanggal_peminjaman');
             $table->date('tanggal_dikembalikan');
             $table->enum('status', ['dipinjam', 'dikembalikan']);
