@@ -25,7 +25,7 @@
                     <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="/">Dashboardd</a>
+                    <a href="/">Dashboard</a>
                 </li>
             </ul>
         </div>
