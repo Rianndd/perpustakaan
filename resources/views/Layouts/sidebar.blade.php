@@ -2,9 +2,10 @@
     <div class="sidebar-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="white">
-            <a href="index.html" class="logo">
-                <img src="{{ asset('admin/assets/img/kaiadmin/logo_light.svg') }}" alt="navbar brand" class="navbar-brand"
-                    height="20" />
+            <a href="/" class="logo">
+                <img src="{{ asset('img/logo.png') }}" alt="navbar brand" class="navbar-brand me-3"
+                    height="40" width="40" />
+                {{ config('app.name') }}
             </a>
             <div class="nav-toggle">
                 <button class="btn btn-toggle toggle-sidebar">
